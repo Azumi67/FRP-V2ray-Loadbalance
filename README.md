@@ -1,6 +1,16 @@
 ![R (2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/233f4a2c-3de1-4413-945e-7f6c72b85fbc) **Project Overview:** **FRP-TCP Tunnel-Loadbalance**
 ---------------------------------------------
 
+
+![OIP](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7854873b-f954-4af4-997c-6f970feba42a) [Script](
+
+![lang](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/f6468974-f3d7-4c4a-99cc-ae9df6391c3c)**Languages**
+
+[Persian](
+[English](
+
+
+------------------------------------------------------------------------------
 ![check](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/d8bc4857-3be9-4b74-8ef6-ac1a6f9c4ca3) **Features :**
 
 - You can establish a TCP tunnel with IPV6 on single or mutliple ports.
@@ -120,6 +130,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/opiran-club/softether/main/o
 --------------------------------------------------------------------------------------------
 
 ![R (a2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/4dc5f196-1130-4870-b5bc-1be80c2d3a2a) **My Script** 
+-----------------------------------------------------------
 
 ```
 here
@@ -143,6 +154,7 @@ here
 -----------------------------------------------------------------------------------------------------------------------------------
 
 **تانل TCP با لود بالانس**
+------------------------------------------
 
 
 
