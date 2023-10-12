@@ -2,13 +2,16 @@
 ---------------------------------------------
 
 
-![OIP](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7854873b-f954-4af4-997c-6f970feba42a) [Navigate to the Script](https://github.com/Azumi67/FRP-V2ray-Loadbalance/blob/main/README.md#-my-script)
+![OIP](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7854873b-f954-4af4-997c-6f970feba42a) [Navigate to my Script](https://github.com/Azumi67/FRP-V2ray-Loadbalance/blob/main/README.md#-my-script)
 
+
+
+-------------------------------------------------------
 ![lang](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/f6468974-f3d7-4c4a-99cc-ae9df6391c3c)**Languages**
 
-[Persian](https://github.com/Azumi67/FRP-V2ray-Loadbalance#%D8%AA%D8%A7%D9%86%D9%84-tcp-%D8%A8%D8%A7-%D9%84%D9%88%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D9%86%D8%B3)
+- [Persian](https://github.com/Azumi67/FRP-V2ray-Loadbalance#%D8%AA%D8%A7%D9%86%D9%84-tcp-%D8%A8%D8%A7-%D9%84%D9%88%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D9%86%D8%B3)
 
-[English](https://github.com/Azumi67/FRP-V2ray-Loadbalance#-project-overview-frp-tcp-tunnel-loadbalance)
+- [English](https://github.com/Azumi67/FRP-V2ray-Loadbalance#-project-overview-frp-tcp-tunnel-loadbalance)
 
 
 ------------------------------------------------------------------------------
@@ -198,3 +201,18 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 - پشتیبانی از x86 و amd64.
 
 ---------------------------------------------
+
+![1234](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/d2e0f75f-8a68-4d8b-bce7-9d57456810cb)
+**آموزش**
+- نخست سرور ایران را کانفیگ کنید.
+
+![KHAREJ-SIMPLE IPV6](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/16855308-9c31-47c1-933c-077a557e1611)
+
+- ایپی 6 ایران و خارج را وارد نمایید.
+- پورت تانل میتواند هر پورتی باشد ( پورت تانل باید برای ایران و خارج یکسان باشد)
+- توکن تانل مانند پسورد میباشد ( توکن برای ایران و خارج یکسان میباشد)
+- پورت v2ray خارج، پورت اصلی کانفیک شما است.
+- پورت v2ray ایران، پورت v2rayng شما خواهد بود.
+- برای تعداد بالای پورت میتوان از port range استفاده نمایید. به طور مثال : پورت v2ray خارج : 8080,8081,8082 و برای پورت v2ray ایران : 8080,8081,8082
+- 
+  -------------------------------------------
