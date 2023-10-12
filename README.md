@@ -2,7 +2,7 @@
 ---------------------------------------------
 
 
-![OIP](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7854873b-f954-4af4-997c-6f970feba42a) [Script](https://github.com/Azumi67/FRP-V2ray-Loadbalance/blob/main/README.md#-my-script)
+![OIP](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7854873b-f954-4af4-997c-6f970feba42a) [Navigate to the Script](https://github.com/Azumi67/FRP-V2ray-Loadbalance/blob/main/README.md#-my-script)
 
 ![lang](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/f6468974-f3d7-4c4a-99cc-ae9df6391c3c)**Languages**
 
@@ -50,7 +50,7 @@
    - Tunnel port can be anything, i used 332[Same value for both Kharej & Iran]
    - Tunnel token is like password [for example azumi]
    - Iran v2ray port will be your new port used in V2rayng [for example 8081]
-   - Kharej V2ray port is your original port [for xample 8080]
+   - Kharej V2ray port is your original port [for example 8080]
    - Enter your subdomain and your email [it's not in the picture above]
    - Enter your desired Dashboard username/password and port.[ i used azumi for username/password and 700 as port]
    - You can connect to your tunnel dashboard using https://sub-domain.com:700. << This is an example.
@@ -69,7 +69,7 @@
   - Kharej V2ray port is your original v2ray port [for example 8080]
   - Iran V2ray port will be your new v2ray port [here we use the same port for kharej and iran v2ray port, you can use a different port than the original one for iran side].
   - I used the same port for Iran & Kharej V2ray port for every IPV6 that i have added.
-  - Enter a different port for each new Khare IPV6.
+  - Enter a different port for each new Kharej IPV6.
   - Enter as many Kharej IPV6s as you want, I chose 3 IPV6s.
   - Enter the health check interval for each Khare IPV6 [for example 10 seconds].
   - For this method to work, this Iran's config is suitable [ It's in FRP simple V2ray-iran-Mutliple Config menu] since you need to give one ipv6 for every different port on iran side as well.
@@ -89,6 +89,7 @@
    - Enter Iran and Kharej v2ray port, I used the same port for each new IPV6. [You can test different ports.]
    - Kharej v2ray port is your original v2ray port and Iran v2ray port is your new v2ray port.
    - This works well with Kharej multiple IPV6 and ports[ Directory : FRP Simple V2ray-Kharej-IPV6-Six ipv6 tunnel]
+   - Make sure to enter the same port for iran side as you have choosen on kharej server. for example if you have choosen 8080 for kharej v2ray port on kharej side, you should enter the same port for kharej v2ray port on iran side.
 
       ---------------------------------------------------------------
 **LoadBalance Kharej Single Port**
@@ -104,8 +105,11 @@
 - Select health check interval for each Kharej IPV6 [for example 10 seconds].
 
 ![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/ee2fa4f2-ac98-472c-8505-06f5738c6a39) **NOTE**
-- Make sure to choose only a single port for your kharej IPV6s. [ for example : if you have 2 IPV6, you enter both for iran & kharej 8080 (one single port)]
+- You can choose a single port for your kharej & iran v2ray ports. [ for example : if you have 2 IPV6, for each ipv6 you enter a single point for iran & kharej v2ray port] for example kharej & iran v2ray ports : both 8080 OR kharej v2ray port 8080 | Iran v2ray port 443
+- You can choose a different port for iran and another for kharej v2ray port. for example : 443 for iran, 8080 for kharej
 - You only need one IPV6 for iran server.
+- You can have as many IPV6 for kharej server.
+- Make sure to enter the same port for iran side as you have choosen on kharej server. for example if you have choosen 8080 for kharej v2ray port on kharej side, you should enter the same port for kharej v2ray port on iran side.
 
 
   -----------------------------------------------------------------------------------
@@ -122,12 +126,13 @@
 
 ![R (12)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/75d10b0e-6f41-4172-82a0-fda086593b6e) **Additional info :**
 **Loadbalance Multiple ports**
-- For loadbalancing multiple ports, it uses random method. it means if you have different ports, it may connect to one port at a time. that is why i prefer multiple IPV6 on a single port. [You can try different method and different ports.]
+- For loadbalancing multiple ports, it uses random method. it means if you have different ports, it may connect to one port at a time as the loadbalancer is working like that. that is why i prefer multiple IPV6 on a single port. [You can try different method and different ports.]
 - Let's say you have 3 Kharej IPV6 with three different ports[ 8080-8081-8082], for your first kharej IPV6... you enter 8080 for both kharej/iran v2ray port and so on. [You can of course enter 8080 for kharej V2ray port and one single port [443] for every Iran V2ray ports.
 - On iran side, if you are using one local ip, you should give port range for kharej/iran v2ray port. for example : kharej v2ray port : 8080,8081,8082 - iran v2ray port : 8080,8081,8082 << This should be done on iran side- loadbalance section.
 - On iran side, if you are using three local ips[Iran IPV6} , you can enter the ports for every IPV6 seperately.<< this is available on simple v2ray tunnel nad it is not considered loadbalance hence not in loadbalance section.
 - Don't use capital words when entering your inputs.
 - Always configure iran server first.
+- Make sure to enter the same port for iran side as you have choosen on kharej server. for example if you have choosen 8080 for kharej v2ray port on kharej side, you should enter the same port for kharej v2ray port on iran side.
 
  -----------------------------------------------------------------------------------------------
 
