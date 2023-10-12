@@ -1,4 +1,17 @@
 #!/bin/bash
+# FRP TCP Tunnel 
+# Author: github.com/Azumi67
+# Special thanks to github.com/opiran-club as always.
+# Source: github.com/fatedier/frp
+#
+# This script is designed to simplify the installation and configuration of IPV6/IPV4 tunnels using FRP.
+# It provides load balancing on single and multiple ports, also supports v2ray simple IPV6/IPV4 tunnel with it's own dashboard.
+#
+# Supported architectures: x86_64, amd64
+# Supported operating systems: Tested on Ubuntu 20 - Digital Ocean
+# Disclaimer:
+# This script comes with no warranties or guarantees. Use it at your own risk.
+
 # root
 if [ "$EUID" -ne 0 ]; then
     echo -e "\n ${RED}This script must be run as root.${NC}"
