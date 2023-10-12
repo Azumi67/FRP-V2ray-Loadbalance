@@ -62,7 +62,7 @@
    - Do the same thing in iran side as well. you can specify port range if you have a lot of ports. for example: kharej v2ray ports = 8080,8081,8082  | iran v2ray ports = 8080,8081,8082 < this is an example
 
      ![R (12)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2f672098-4b41-4da7-b930-7f17f2c774e2) Additional example :
-     - You can use different methods if you want. for example you can establish a tunnel using 3 kharej IPV6 with different ports and on iran side, from the menu, choose singleconfig and use a port range instead. ( you don't need to choose mutli config if you don't want to)
+     - You can use different methods if you want. for example you can establish a tunnel using 3 kharej IPV6 with different ports and on iran side, from the menu, choose single config and use a port range instead. ( you don't need to choose mutli config if you don't want to)
      - for example :
        1. Kharej server : IPV6-1 kharej v2ray port : 8080 | iran v2ray port : 8080 ---- IPV6-2 kharej v2ray port : 8081 | iran v2ray port : 8081
        2. iran server : kharej v2ray port : 8080,8081 | iran v2ray port : 8080,8081
@@ -105,8 +105,15 @@
    - Kharej v2ray port is your original v2ray port and Iran v2ray port is your new v2ray port.
    - This works well with Kharej multiple IPV6 and ports[ Directory : FRP Simple V2ray-Kharej-IPV6-Six ipv6 tunnel]
    - Make sure to enter the same port for iran side as you have choosen on kharej server. for example if you have choosen 8080 for kharej v2ray port on kharej side, you should enter the same port for kharej v2ray port on iran side.
+     
 
-      ---------------------------------------------------------------
+![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/9e1dd2ee-01ee-4888-9ef8-c68ac19cf5c5) Additional Info :
+- You can use different methods, you don't need to use mutli config on iran side if you don't want to set an ipv6 for every port.
+ - let me gove you an example : A. Kharej side: You have 2 IPV6 | IPV6-1 - Kharej v2ray port : 8080 - Iran v2ray port : 8080 | IPV6-2 - Kharej v2ray port : 8081 - Iran v2ray port : 8081
+                                B. Iran side : You have selected single config : Kharej v2ray port : 8080,8081 | Iran v2ray port : 8080,8081
+- or you can use mutli config for iran server and proceed with the examples given in the picture above. 
+
+------------------------------------------------------------------------------------------
 **LoadBalance Kharej Single Port**
 
 ![LOADBALANCE SINGLE PORT KHAREJ](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7e005c6f-0e60-4ca5-980c-d41be7c61b37)
