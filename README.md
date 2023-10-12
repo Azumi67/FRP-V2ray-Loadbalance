@@ -61,6 +61,15 @@
    - You can connect to your tunnel dashboard using https://sub-domain.com:700. << This is an example.
    - Do the same thing in iran side as well. you can specify port range if you have a lot of ports. for example: kharej v2ray ports = 8080,8081,8082  | iran v2ray ports = 8080,8081,8082 < this is an example
 
+     ![R (12)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2f672098-4b41-4da7-b930-7f17f2c774e2) Additional example :
+     - You can use different methods if you want. for example you can establish a tunnel using 3 kharej IPV6 with different ports and on iran side, from the menu, choose singleconfig and use a port range instead. ( you don't need to choose mutli config if you don't want to)
+     - for example :
+       1. Kharej server : IPV6-1 kharej v2ray port : 8080 | iran v2ray port : 8080 ---- IPV6-2 kharej v2ray port : 8081 | iran v2ray port : 8081
+       2. iran server : kharej v2ray port : 8080,8081 | iran v2ray port : 8080,8081
+
+  - Multi config on iran menu is there for people who wants to use different ipv6 for every port on iran side as well and not just kharej side.
+
+
 -----------------------------------------------------------------------------------
 **FRP Kharej - Simple V2ray Multiple ports**
 
