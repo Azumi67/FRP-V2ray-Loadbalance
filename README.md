@@ -17,6 +17,7 @@
 - You can establish a TCP tunnel with IPV6 on single or mutliple ports.
 - You can also do a simple IPV4 tunnel.
 - You can create a load balance up to 6 IPV6 on single or multiple ports[for loadbalance multiple ports, the connection  will be chosen randomly so I prefer different IPV6 on single port].
+- You can specify port range and establish a tunnel with IPV4/6 
 - You can setup FRP with dashboard if you want to with your desired Sub-domain, username/password and custom port for your dashboard.
 - There is a service status in the main menu.
 - There is a restart button to restart the services.
@@ -38,6 +39,7 @@
   - Tunnel token is like a password [for example : azumi][Same value for both iran & kharej]
   - Kharej V2ray port is your original port[for example 8080]
   - Iran V2ray port will be your new port used in V2rayng [for example 8081]
+  - You can specify port range if you have a lot of ports. for example: kharej v2ray ports = 8080,8081,8082  | iran v2ray ports = 8080,8081,8082
 
     -------------------------------------------------------------------------------
 **FRP Iran - Simple V2ray Config with Dashboard**
@@ -54,6 +56,7 @@
    - Enter your subdomain and your email [it's not in the picture above]
    - Enter your desired Dashboard username/password and port.[ i used azumi for username/password and 700 as port]
    - You can connect to your tunnel dashboard using https://sub-domain.com:700. << This is an example.
+   - Do the same thing in iran side as well. you can specify port range if you have a lot of ports. for example: kharej v2ray ports = 8080,8081,8082  | iran v2ray ports = 8080,8081,8082 < this is an example
 
 -----------------------------------------------------------------------------------
 **FRP Kharej - Simple V2ray Multiple ports**
@@ -165,6 +168,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 ----------------------------------------------
 ![R23 (1)](https://github.com/Azumi67/FRP-Wireguard/assets/119934376/31baa226-5045-4489-90d2-1a066a91e880)
 ![circle-clipart-chain-link-9](https://github.com/Azumi67/FRP-Wireguard/assets/119934376/348d93a7-b12b-414a-908d-664ea38f4cdf)[FRP-Source](https://github.com/fatedier/frp)
+
 ![circle-clipart-chain-link-9](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/dd1aaa6c-518a-4389-bed4-25b40854fe25)[VPS-optimize & Extra IP](https://github.com/opiran-club)
 
 
@@ -175,9 +179,22 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
+![R (2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/91f1ac45-d411-4005-8e12-7acee9c0054f)
 **تانل TCP با لود بالانس**
 ------------------------------------------
 
 
+![check](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/e88c4e01-657f-4af8-9cf3-4e08c55ab19f)
+**امکانات**
 
+- ایجاد تانل TCP با ایپی ورژن 4 و 6 ( به طور مثال برای V2ray ایجاد کنید.)
+- میتوانید از تک یا چندین پورت اگر تعداد کانفیگ بیشتری دارید برای تانل استفاده نمایید.
+- میتوانید از port range استفاده نمایید اگر پورت های زیادی دارید.( امکان تانل با ایپی 4 و 6)
+- میتوانید برای هر پورت یک ایپی ورژن 6 اختصاص دهید و بر روی تک پورت، لود بالانس ایجاد نمایید.
+- میتوانید بر روی چندین پورت با ایپی ورژن های مختلف ، لود بالانس ایجاد نمایید. (کانکشن رندوم خواهد بود.)
+- قابلیت TCP healthcheck برای لود بالانس
+- امکان ایجاد داشبورد تانل با ساب دامین، نام کاربری، رمز عبور و پورت دلخواه شما.
+- امکان مشاهده سرویس و ریست کردن آن.
+- پشتیبانی از x86 و amd64.
 
+---------------------------------------------
