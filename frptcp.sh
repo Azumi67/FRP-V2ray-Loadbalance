@@ -292,7 +292,7 @@ function frp_simple_ipv6_tunnel_menu() {
     echo +════════════════════════════+
     echo "Select an option:"
     echo -e "1. \e[92mSingle IPv6 Tunnel\e[0m"
-    echo -e "2. \e[96mSix IPv6 Tunnel\e[0m"
+    echo -e "2. \e[96mMultiple IPv6 Tunnel\e[0m"
     echo -e "3. \e[33mBack to previous menu\e[0m"
     read -p "Enter your choice Please: " choice
 
