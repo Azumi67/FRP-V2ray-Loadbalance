@@ -238,7 +238,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
   
   -------------------------------------------
 
-  - سرور ایران - تانل تک پورت با داشبورد
+   **سرور ایران - تانل تک پورت با داشبورد**
   
   ![IRAN DASHBOARD2](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/040c5bd9-7dcd-4154-b1d0-4186f480467a)
 
@@ -271,7 +271,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
 -----------------------------------------------------------------
 
-- سرور خارج - تانل مولتی کانفیگ با چندین ایپی 6
+ **سرور خارج - تانل مولتی کانفیگ با چندین ایپی 6**
   
 ![simple ipv6 mutli](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/4f08ac5f-b6c9-4178-821f-481617457f71)
 
@@ -290,7 +290,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
 
 -------------------------------------------------------------- 
-- سرور ایران - تانل با چندین ایپی 6 ایران و پورت های متفاوت
+ **سرور ایران - تانل با چندین ایپی 6 ایران و پورت های متفاوت**
  <div dir="rtl">&bull;</div>
  
   ![simple iran multi](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/db1e4433-8f80-4641-aa0a-69858a644c93)
@@ -308,7 +308,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
     <div dir="rtl">&bull; دقت کنید که پورت هایی که برای v2ray هر ایپی 6 در سرور خارج دادید همان پورت را در سرور ایران برای هر ایپی 6 وارد کنید.</div>
 
 --------------------------------------------------------------------
-- لود بالانس تک پورت - سرور خارج
+ **لود بالانس تک پورت - سرور خارج**
  <div dir="rtl">&bull;</div>
 
 ![LOADBALANCE SINGLE PORT KHAREJ](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/cae1ed51-965e-4979-9a33-42588ba9b696)
@@ -323,7 +323,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
 ------------------------------------------
 
-- لود بالانس تک پورت - سرور ایران
+ **لود بالانس تک پورت - سرور ایران**
 
 ![Screenshot 2023-10-11 055029](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/75a3a0cc-60d2-474d-839f-c9b48974f6c6)
 
@@ -367,3 +367,49 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
 
 --------------------------------
+
+![scri](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/cbfb72ac-eff1-46df-b5e5-a3930a4a6651)
+**اسکریپت های کارآمد :**
+
+ <div dir="rtl">&bull; میتوانید از اسکریپت opiran vps optimizer یا هر اسکریپت دیگری استفاده نمایید.</div>
+ 
+ 
+  ```
+apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
+  ```
+  
+  --------------------
+   <div dir="rtl">&bull; اضافه کردن ایپی 6 اضافه</div>
+ 
+  
+  ```
+  bash <(curl -s -L https://raw.githubusercontent.com/opiran-club/softether/main/opiran-seth)
+ ```
+
+
+  ---------------------------------------------
+
+![R (a2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2b8cac5e-ff8b-453d-a42d-a21a5339f156)
+**اسکریپت frp بود بالانس**
+
+  ```apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP-V2ray-Loadbalance/main/frptcp.sh --ipv4) ```
+
+    ---------------------------------------------
+![R (7)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/3f13cee6-9e15-484a-985e-6ff3b35938b8)
+**کانال تلگرام**
+
+![R (6)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/f81bf6e1-cfed-4e24-b944-236f5c0b15d3) [اپیران](https://github.com/opiran-club)
+
+
+
+---------------------------------
+![R23 (1)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/18d12405-d354-48ac-9084-fff98d61d91c)
+**سورس ها**
+
+![R (6)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/be0dd34c-7b47-4d93-904c-eecf013d7b06) [سورس های FRP](https://github.com/fatedier/frp)
+
+![R (9)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/33388f7b-f1ab-4847-9e9b-e8b39d75deaa) [سورس های اپیران](https://github.com/opiran-club)
+
+----------------------
+![youtube-131994968075841675](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/24202a92-aff2-4079-a6c2-9db14cd0ecd1)
+**ویدیوی آموزش**
