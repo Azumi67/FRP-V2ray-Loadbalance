@@ -226,6 +226,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 **آموزش**
 - نخست سرور ایران را کانفیگ کنید.
 - سرور خارج - ساخت تانل ساده تک پورت
+- لطفا openvpn یا X-ui خود را در سرور خارج نصب کنید. نیازی به نصب در سرور ایران نمیباشد. 
 
 ![KHAREJ-SIMPLE IPV6](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/16855308-9c31-47c1-933c-077a557e1611)
 <div dir="rtl">&bull; ایپی 6 ایران و خارج را وارد نمایید.</div>
@@ -374,17 +375,17 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
  <div dir="rtl">&bull; میتوانید از اسکریپت opiran vps optimizer یا هر اسکریپت دیگری استفاده نمایید.</div>
  
  
-  ```
+```
 apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
-  ```
+```
   
   --------------------
    <div dir="rtl">&bull; اضافه کردن ایپی 6 اضافه</div>
  
   
-  ```
-  bash <(curl -s -L https://raw.githubusercontent.com/opiran-club/softether/main/opiran-seth)
- ```
+```
+bash <(curl -s -L https://raw.githubusercontent.com/opiran-club/softether/main/opiran-seth)
+```
 
 
   ---------------------------------------------
@@ -392,9 +393,12 @@ apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-c
 ![R (a2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2b8cac5e-ff8b-453d-a42d-a21a5339f156)
 **اسکریپت frp بود بالانس**
 
-  ```apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP-V2ray-Loadbalance/main/frptcp.sh --ipv4) ```
+```
+apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP-V2ray-Loadbalance/main/frptcp.sh --ipv4)
+```
 
-    ---------------------------------------------
+--------------------------------------------------------
+
 ![R (7)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/3f13cee6-9e15-484a-985e-6ff3b35938b8)
 **کانال تلگرام**
 
