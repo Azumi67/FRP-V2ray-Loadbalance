@@ -72,13 +72,15 @@ EOF
 function main_menu() {
     while true; do
         display_logo
-        echo -e "\e[93m╔═════════════════════════════════════════════╗\e[0m"  
-        echo -e "\e[93m║                  Main Menu                  ║\e[0m"   
-        echo -e "\e[93m╠═════════════════════════════════════════════╣\e[0m"  
+        echo ""
+        echo -e "\e[93m╔════════════════════════════════════════════════════════════════╗\e[0m"  
+        echo -e "\e[93m║                            Main Menu                           ║\e[0m"   
+        echo -e "\e[93m╠════════════════════════════════════════════════════════════════╣\e[0m"  
         display_service_status
-        echo -e "\e[92mAuthor: Azumi\e[0m ( •_ •) ▬▬ι═══════ﺤ \e[92mJoin Opiran Telegram \e[34m@https://t.me/OPIranClub\e[0m\e[0m"
+        echo ""
+        echo -e "\e[92mJoin Opiran Telegram \e[34m@https://t.me/OPIranClub\e[0m\e[0m"
         echo 
-        printf "\e[93m+ꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥ+\e[0m\n" 
+        printf "\e[93m+ꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥ+\e[0m\n" 
 
         echo -e "1. \e[96mInstallation\e[0m"
         echo -e "2. \e[92mFRP Simple V2Ray\e[0m"
@@ -1215,19 +1217,12 @@ echo "Reloading daemon..." > /dev/null 2>&1
 function restart_service() {
     echo -e "\e[93mRestarting FRP service...\e[0m"
 
-    # Check 
-    if systemctl is-active --quiet azumifrpc; then
+  # Check 
         systemctl daemon-reload
-        systemctl restart azumifrpc
-        echo "FRP service restarted."
-    fi
-
+        systemctl restart azumifrpc.service > /dev/null 2>&1
+        
     # Check 2
-    if systemctl is-active --quiet azumifrps; then
-        systemctl daemon-reload
-        systemctl restart azumifrps
-        echo "FRP service restarted."
-    fi
+        systemctl restart azumifrps.service > /dev/null 2>&1
 
     # Display the notification after restarting the service
     echo "╭───────────────────────────────────────────╮"
