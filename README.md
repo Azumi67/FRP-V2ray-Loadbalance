@@ -228,7 +228,10 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 - سرور خارج - ساخت تانل ساده تک پورت
 - لطفا openvpn یا X-ui خود را در سرور خارج نصب کنید. نیازی به نصب در سرور ایران نمیباشد. 
 
-![KHAREJ-SIMPLE IPV6](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/16855308-9c31-47c1-933c-077a557e1611)
+ <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/16855308-9c31-47c1-933c-077a557e1611" alt="menu screen" />
+  </p>
+</details>
 <div dir="rtl">&bull; ایپی 6 ایران و خارج را وارد نمایید.</div>
 <div dir="rtl">&bull; پورت تانل میتواند هر پورتی باشد ( پورت تانل باید برای ایران و خارج یکسان باشد)</div>
 <div dir="rtl">&bull; توکن تانل مانند پسورد میباشد ( توکن برای ایران و خارج یکسان میباشد)</div>
@@ -241,11 +244,14 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
    **سرور ایران - تانل تک پورت با داشبورد**
   
-  ![IRAN DASHBOARD2](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/040c5bd9-7dcd-4154-b1d0-4186f480467a)
+  <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/040c5bd9-7dcd-4154-b1d0-4186f480467a" alt="menu screen" />
+  </p>
+</details>
 
   
 <div dir="rtl">&bull; اگر دامین ندارید لطفا از نسخه بدون داشبورد برای کانفیگ ایران استفاده نمایید.</div>
-<div dir="rtl">&bull; پورت تانل میتواند هر پورتی باشه. من 443 قرار دادم.ورت تانل در سرور ایران و خارج باید یکی باشد</div>
+<div dir="rtl">&bull; پورت تانل میتواند هر پورتی باشه. من 443 قرار دادم.پورت تانل در سرور ایران و خارج باید یکی باشد</div>
 <div dir="rtl">&bull; توکن مانند پسورد است ( باید هم در سرور خارج و ایران، از یک توکن یکسان استفاده نمایید)</div>
 <div dir="rtl">&bull; پورت v2ray ایران همان پورت v2rayng شما خواهد بود. ( اطفا دقت کنید که پورتی که برای سرور ایران انتخاب کردید هم در سرور خارج و ایران یکسان باشد) . به طور مثال اگر در سرور خارج پورت 8081 را برای پورت v2ray ایران انتخاب کرده اید، همان پورت را هم در سرور ایران وارد نمایید.</div>
 <div dir="rtl">&bull; پورت v2ray خارج همان پورت اصلی کانفیگ شما است .</div>
@@ -274,7 +280,10 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
  **سرور خارج - تانل مولتی کانفیگ با چندین ایپی 6**
   
-![simple ipv6 mutli](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/4f08ac5f-b6c9-4178-821f-481617457f71)
+  <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/4f08ac5f-b6c9-4178-821f-481617457f71" alt="menu screen" />
+  </p>
+</details>
 
  <div dir="rtl">&bull; اینجا از 3  ایپی 6 خارج و 4 ایپی 6 ایران استفاده شده است که یکی از ایپی 6 های ایران برای تانل میباشد</div>
    <div dir="rtl">&bull; تعداد ایپی 6 برای سرور خارجتون را وارد کنید به طور مثال من 3 ایپی 6 میخواستم. سپس ایپی های 6 خارج را مانند عکس وارد نمایید.</div>
@@ -294,7 +303,10 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
  **سرور ایران - تانل با چندین ایپی 6 ایران و پورت های متفاوت**
  <div dir="rtl">&bull;</div>
  
-  ![simple iran multi](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/db1e4433-8f80-4641-aa0a-69858a644c93)
+   <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/db1e4433-8f80-4641-aa0a-69858a644c93" alt="menu screen" />
+  </p>
+</details>
 
  <div dir="rtl">&bull;  عکس قبلی در سرور خارج از 4 ایپی 6 ایران ( یک ایپی 6 ایران برای تانل در سرور خارج) استفاده شده است و 3 تا دیگر در سرور ایران استفاده خواهد شد. </div>
  <div dir="rtl">&bull; نام ساب دامین، ایمیل را برای گرفتن cert وارد کنید. نام کاربری، رمزعبور و پورت دلخواهتون را بدید تا داشبورد برای شما فعال شود.</div>
@@ -312,7 +324,10 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
  **لود بالانس تک پورت - سرور خارج**
  <div dir="rtl">&bull;</div>
 
-![LOADBALANCE SINGLE PORT KHAREJ](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/cae1ed51-965e-4979-9a33-42588ba9b696)
+  <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/db1e4433-8f80-4641-aa0a-69858a644c93" alt="menu screen" />
+  </p>
+</details>
 
  <div dir="rtl">&bull;از 3 ایپی 6 خارج و 1 ایپی 6 ایران در این روش استفاده شده است.برعکس روش های قبل برای هر ایپی 6 تنها یک پورت را انتخاب میکنیم</div>
   <div dir="rtl">&bull; توکن تانل مانند پسورد میباشد. باید هم در سرور ایران وخارج یکسان باشد.</div>
@@ -326,7 +341,10 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
  **لود بالانس تک پورت - سرور ایران**
 
-![Screenshot 2023-10-11 055029](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/75a3a0cc-60d2-474d-839f-c9b48974f6c6)
+  <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/75a3a0cc-60d2-474d-839f-c9b48974f6c6" alt="menu screen" />
+  </p>
+</details>
 
  <div dir="rtl">&bull; تانل توکن مانند پسورد میباشد. در هر دو سرور ایران و خارج باید یکسان باشد.</div>
   <div dir="rtl">&bull; پورت تانل میتواند هر پورتی باشد. به طور مثال 443 و باید در هر دو سرور ایران و خارج یکسان باشد.</div>
@@ -339,14 +357,17 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
  **لود بالانس مولتی پورت - سرور خارج**
 
  <div dir="rtl">&bull; در لود بالانس مولتی پورت ، کانکشن شما بر روی هر پورت به صورت تصادفی خواهد بود</div>
- <div dir="rtl">&bull; شما میتوانید از چندین پورت متفاوت برای سرور خارج وایران استفاده کنید یا پورت متفاوت برای سرور خارج ولی ورت یکسان برای سرور ایران استفاده نمایید.</div>
+ <div dir="rtl">&bull; شما میتوانید از چندین پورت متفاوت برای سرور خارج وایران استفاده کنید یا پورت متفاوت برای سرور خارج ولی پورت یکسان برای سرور ایران استفاده نمایید.</div>
   <div dir="rtl">&bull; به طور مثال (روش اول): در روش اول شما برای هر کانفیگ پورت متفاوتی در سرور خارج دارید. کانفیگ اول 8080، دوم 8081 و سوم 8082. میتوانید برای پورت v2ray ایران هم برای کانفیگ اول 8080، کانفیگ دوم 8081 و کانفیگ سوم 8082 بذارید. ( باید همین پورت ها هم در سرور ایران یا به صورت مولتی ipv6 یا تک ایپی و استفاده از port range اضافه نمایید)</div>
    <div dir="rtl">&bull; مثال دوم(روش دوم) : شما 3 کانفیگ مانند مثال بالا با پورت های 8080، 8081 و 8082 ذارید.پورت v2ray خارج به ازای هر ایپی 6 به ترتیب 8080 ، 8081 و 8082 خواهد بود و پورت ثابت 443 برای پورت های v2ray ایران. >> این تنطیمات در سرور خارج بود. در سرور ایران، شما پورت v2ray خارج را 8080,8081,8082 و پورت v2ray ایران را 443 میگذارید.</div>
  <div dir="rtl">&bull; در عکس پایین از روش اول استفاده شده است.</div>
 
  <div dir="rtl">&bull;</div>
  
-  ![Screenshot 2023-10-11 074043](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2c130333-f5aa-46c4-b8be-0024f066fd2d)
+   <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2c130333-f5aa-46c4-b8be-0024f066fd2d" alt="menu screen" />
+  </p>
+</details>
 
  <div dir="rtl">&bull; ایپی 6 ایران را وارد نمایید</div>
   <div dir="rtl">&bull; پورت و توکن تانل را وارد کنید و باید در هر دو سرور ایران و خارج یکسان باشد.</div>
@@ -358,14 +379,17 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
 
   **لود بالاتس مولتی پورت - سرور ایران** 
 
-  ![iran](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/1dbd5e4f-71d5-4ce8-8358-ba307ab03be7)
+   <p align="right">
+    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/1dbd5e4f-71d5-4ce8-8358-ba307ab03be7" alt="menu screen" />
+  </p>
+</details>
 
    <div dir="rtl">&bull; پورت و توکن تانل را مشابه سرور خارج وارد میکنید.</div>
  <div dir="rtl">&bull; پورت v2ray خارج مانند سرور خارج خواهد بود اما چون از تک ایپی در سرور ایران استفاده خواهیم کرد، بنابراین از پورت رنج استفاده میکنیم. پورت v2rayخارج  8080,8081,8082</div>
   <div dir="rtl">&bull; پورت v2ray ایران هم مانند سرور خارج وارد میکنید . پس پورت v2ray ایران 8080,8081,8082 میباشد.</div>
    <div dir="rtl">&bull; اگر در سرور خارج پورت v2ray خارج 8080 و 8081 و 8082 بود ولی پورت v2ray ایران تک پورت 443 بود، بنابراین در سرور ایران هم همین مقدار را میگذارید. به طور مثال پورت v2ray ایران 443</div>
     <div dir="rtl">&bull; میتوانید از port range بدین صورت هم در سرور ایران استفاده نمایید. به طور مثال پورت v2ray خارج = 8082-8080 و پورت v2ray ایران = 8082-8080</div>
-
+ <div dir="rtl">&bull; شما میتوانید از کانفیگ مولتی ایران هم استفاده نمایید و به ازای هر ایپی 6 ایران یک پورت برای سرور خارج و ایران وارد نمایید. نمونه ای کانفیگ را در اسکرین شات های بالاتر توضیح داده ام.</div>
 
 --------------------------------
 
