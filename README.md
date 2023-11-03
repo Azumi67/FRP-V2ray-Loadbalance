@@ -235,7 +235,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/opiran-club/softether/main/o
   ---------------------------------------------
 
 ![R (a2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2b8cac5e-ff8b-453d-a42d-a21a5339f156)
-**اسکریپت frp بود بالانس**
+**اسکریپت frp لود بالانس**
 
 ```
 apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP-V2ray-Loadbalance/main/frptcp.sh --ipv4)
