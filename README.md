@@ -18,6 +18,8 @@
 
 
 ------------------------------------------------------------------------------
+![Update-Note--Arvin61r58](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/59d559da-0dd2-4443-8c97-31d17847f8d6) این نسخه ، لودبالانس چند پورتش مشکل داره و راه حل را پیدا کردم و بعدا داخل اسکریپت دیگه اضافه میکنم
+
 
 
 ![check](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/e88c4e01-657f-4af8-9cf3-4e08c55ab19f)
@@ -27,12 +29,11 @@
 - میتوانید از تک یا چندین پورت اگر تعداد کانفیگ بیشتری دارید برای تانل استفاده نمایید.
 - میتوانید از port range استفاده نمایید اگر پورت های زیادی دارید.( امکان تانل با ایپی 4 و 6)
 - میتوانید برای هر پورت یک ایپی ورژن 6 اختصاص دهید و بر روی تک پورت، لود بالانس ایجاد نمایید.
-- میتوانید بر روی چندین پورت با ایپی ورژن های مختلف ، لود بالانس ایجاد نمایید. (کانکشن رندوم خواهد بود.)
 - قابلیت TCP healthcheck برای لود بالانس
 - امکان ایجاد داشبورد تانل با ساب دامین، نام کاربری، رمز عبور و پورت دلخواه شما.
 - امکان مشاهده سرویس و ریست کردن آن.
 - میتوان برای تانل openvpn هم استفاده کرد چون از پروتکل tcp پشتیبانی میکند اما نام ها برای v2ray انتخاب شده است ولی در اصل تفاوتی ایجاد نمیکند. به طور مثال پورت v2ray خارج که میتوان اینگونه هم نوشت < پورت ovpn خارج. 
-- پشتیبانی از x86 و amd64.
+- پشتیبانی از amd64.
 
 ---------------------------------------------
 
@@ -173,45 +174,7 @@
 
 ------------------------------------------
 
- 
 
-  **لود بالاتس مولتی پورت - سرور ایران** 
-
-   <p align="right">
-    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/1dbd5e4f-71d5-4ce8-8358-ba307ab03be7" alt="menu screen" />
-  </p>
-</details>
-
-   <div dir="rtl">&bull; پورت و توکن تانل را مشابه سرور خارج وارد میکنید.</div>
- <div dir="rtl">&bull; پورت v2ray خارج مانند سرور خارج خواهد بود اما چون از تک ایپی در سرور ایران استفاده خواهیم کرد، بنابراین از پورت رنج استفاده میکنیم. پورت v2rayخارج  8080,8081,8082</div>
-  <div dir="rtl">&bull; پورت v2ray ایران هم مانند سرور خارج وارد میکنید . پس پورت v2ray ایران 8080,8081,8082 میباشد.</div>
-   <div dir="rtl">&bull; اگر در سرور خارج پورت v2ray خارج 8080 و 8081 و 8082 بود ولی پورت v2ray ایران تک پورت 443 بود، بنابراین در سرور ایران هم همین مقدار را میگذارید. به طور مثال پورت v2ray ایران 443</div>
-    <div dir="rtl">&bull; میتوانید از port range بدین صورت هم در سرور ایران استفاده نمایید. به طور مثال پورت v2ray خارج = 8082-8080 و پورت v2ray ایران = 8082-8080</div>
- <div dir="rtl">&bull; شما میتوانید از کانفیگ مولتی ایران هم استفاده نمایید و به ازای هر ایپی 6 ایران یک پورت برای سرور خارج و ایران وارد نمایید. نمونه ای کانفیگ را در اسکرین شات های بالاتر توضیح داده ام.</div>
-
---------------------------------
-**لود بالانس مولتی پورت - سرور خارج**
-
- <div dir="rtl">&bull; در لود بالانس مولتی پورت ، کانکشن شما بر روی هر پورت به صورت تصادفی خواهد بود</div>
- <div dir="rtl">&bull; شما میتوانید از چندین پورت متفاوت برای سرور خارج وایران استفاده کنید یا پورت متفاوت برای سرور خارج ولی پورت یکسان برای سرور ایران استفاده نمایید.</div>
-  <div dir="rtl">&bull; به طور مثال (روش اول): در روش اول شما برای هر کانفیگ پورت متفاوتی در سرور خارج دارید. کانفیگ اول 8080، دوم 8081 و سوم 8082. میتوانید برای پورت v2ray ایران هم برای کانفیگ اول 8080، کانفیگ دوم 8081 و کانفیگ سوم 8082 بذارید. ( باید همین پورت ها هم در سرور ایران یا به صورت مولتی ipv6 یا تک ایپی و استفاده از port range اضافه نمایید)</div>
-   <div dir="rtl">&bull; مثال دوم(روش دوم) : شما 3 کانفیگ مانند مثال بالا با پورت های 8080، 8081 و 8082 ذارید.پورت v2ray خارج به ازای هر ایپی 6 به ترتیب 8080 ، 8081 و 8082 خواهد بود و پورت ثابت 443 برای پورت های v2ray ایران. >> این تنطیمات در سرور خارج بود. در سرور ایران، شما پورت v2ray خارج را 8080,8081,8082 و پورت v2ray ایران را 443 میگذارید.</div>
- <div dir="rtl">&bull; در عکس پایین از روش اول استفاده شده است.</div>
-
- <div dir="rtl">&bull;</div>
- 
-   <p align="right">
-    <img src="https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/2c130333-f5aa-46c4-b8be-0024f066fd2d" alt="menu screen" />
-  </p>
-</details>
-
- <div dir="rtl">&bull; ایپی 6 ایران را وارد نمایید</div>
-  <div dir="rtl">&bull; پورت و توکن تانل را وارد کنید و باید در هر دو سرور ایران و خارج یکسان باشد.</div>
-   <div dir="rtl">&bull; مانند توضیحات بالا و مطابق عکس میتوانید برای هر ایپی 6 خارج پورت جداگانه بذارید.</div>
-
-
-
-   ----------------------------------
 
 ![scri](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/cbfb72ac-eff1-46df-b5e5-a3930a4a6651)
 **اسکریپت های کارآمد :**
@@ -320,49 +283,7 @@ apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Azumi67
   - Make sure that your kharej & v2ray ports are correct both on kharej & iran side.
 
 -----------------------------------------------------------------------------------
-**FRP Kharej - Simple V2ray Multiple ports**
 
-   ![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/a1182e5c-b914-4a36-a4c6-776399033d14) **I used 3 IPV6 with three different ports** [You can test different methods]
-
-![simple ipv6 mutli](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/68a65f8e-c132-4da1-8b75-7d7079161d3c)
-
-
-  - Create 4 IPV6 for iran, one for tunnel and 3 for different ports.
-  - Create 3 Kharej IPV6 for different ports.
-  - Enter your Iran IPV6.
-  - Kharej V2ray port is your original v2ray port [for example 8080]
-  - Iran V2ray port will be your new v2ray port [here we use the same port for kharej and iran v2ray port, you can use a different port than the original one for iran side].
-  - I used the same port for Iran & Kharej V2ray port for every IPV6 that i have added.
-  - Enter a different port for each new Kharej IPV6.
-  - Enter as many Kharej IPV6s as you want, I chose 3 IPV6s.
-  - Enter the health check interval for each Khare IPV6 [for example 10 seconds].
-  - On kharej side there is a tcp health check.
-
-    ----------------------------------------------------------------------------
- **FRP Iran - Simple V2ray Multiple Ports**
-
-  ![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/5353de60-a16c-4cad-a824-afcc2d695029) **I used 3 IPV6 for iran[3 IPV6 for kharej]**
-
-![simple iran multi](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/f827c7df-c7ff-49da-a004-3406cd9bc1d9)
-
-   - I used one Iran IPV6 for the tunnel in the Kharej server above.
-   - Enter your remaining Iran IPV6 when prompted.
-   - Enter your subdomain and email, choose a username, password and port when asked.
-   - Enter Tunnel Port [for example 443 or any port you want]- Same value for both Kharej & Iran
-   - Enter Iran and Kharej v2ray port, I used the same port for each new IPV6. [You can test different ports.] for example : IPV6(1) = kharej v2ray port 8080 | iran v2ray port 8080. use another port for the next ipv6.
-   - Kharej v2ray port is your original v2ray port and Iran v2ray port is your new v2rayng port.
-   - This works well with Kharej multiple IPV6 and ports[ Directory : FRP Simple V2ray-Kharej-IPV6-mutli ipv6 tunnel]
-   - Make sure to enter the same port for iran side as you have choosen on kharej server. for example if you have choosen 8080 for kharej v2ray port on kharej side, you should enter the same port for kharej v2ray port on iran side.
-     
-
-![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/9e1dd2ee-01ee-4888-9ef8-c68ac19cf5c5) Additional Info :
-- You can use different methods, you don't need to use mutli config on iran side if you don't want to set an ipv6 for every port.
- - let me give you an example :
- - A. Kharej side: You have 2 IPV6 | IPV6-1 - Kharej v2ray port : 8080 - Iran v2ray port : 8080 | IPV6-2 - Kharej v2ray port : 8081 - Iran v2ray port : 8081
- - B. Iran side : You have selected single config : Kharej v2ray port : 8080,8081 | Iran v2ray port : 8080,8081
- - or you can use mutli config for iran server and proceed with the examples given in the picture above. ( for each ipv6, you enter a new port)
-
-------------------------------------------------------------------------------------------
 **LoadBalance Kharej Single Port**
 
 ![LOADBALANCE SINGLE PORT KHAREJ](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/7e005c6f-0e60-4ca5-980c-d41be7c61b37)
