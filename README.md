@@ -1,4 +1,7 @@
 
+![Update-Note--Arvin61r58](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/ec9cea3e-a6bf-418e-abe1-0dbd36bffbfc)**اپدیت**
+- **این نسخه به روز شد. اطفا به این لینک مراجعه کنید** >> **https://github.com/Azumi67/V2ray_loadbalance_multipleServers**
+----------------------
 
 
 ![R (2)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/91f1ac45-d411-4005-8e12-7acee9c0054f)
